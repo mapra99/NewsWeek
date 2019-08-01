@@ -47,7 +47,7 @@ body{
 
 @media only screen and (max-width:450px) { 
 	.sign-btns{
-		min-width: 170px !important;
+		min-width: 160px !important;
 	}
 
 	.sign-btns svg{
