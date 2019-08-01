@@ -1,0 +1,30 @@
+body{
+	font-family: "Kadwa";
+}
+
+.text-primary{
+	fill: #f72210;
+	color: #f72210 !important;
+}
+
+.text-black{
+	color: black !important;
+}
+
+.text-black: hover{
+	color: #f72210 !important;	
+}
+
+.bg-primary{
+	background: #f72210 !important;
+}
+
+.bg-special-nav {       
+	background-color: #f72210;
+}
+
+@media only screen and (min-width:1200px) { 
+	.bg-special-nav{
+		background:#fff;
+	}      		
+}
