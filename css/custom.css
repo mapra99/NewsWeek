@@ -49,6 +49,10 @@ h2{
 	color: rgba(3,3,3,.4) !important;
 }
 
+.nav-special-item{
+	width: 10%;
+}
+
 h5{
 	font-size: 21px;
 }
@@ -78,7 +82,7 @@ h3{
 	font-size: 17px;
 }
 
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width:992px) {
 	.bg-special-nav{
 		background:#fff;
 	}
