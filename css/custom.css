@@ -1,7 +1,14 @@
 body{
-	font-family: "Kadwa";
 	max-width: 1310px;
 	margin: auto;
+}
+
+header{
+	font-family: "Kadwa";
+}
+
+main{
+	font-family: "Roboto Condensed";
 }
 
 .text-primary{
@@ -10,7 +17,16 @@ body{
 }
 
 .text-secondary{
-	color: black;
+	color: black !important;
+}
+
+.news-anchor-header:hover,.news-anchor-header:focus{
+	text-decoration: 	underline;
+	text-decoration-color: 	#f72210;
+}
+
+h2{
+	font-size: 22px;
 }
 
 .text-black{
