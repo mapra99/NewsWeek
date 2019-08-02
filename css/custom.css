@@ -31,11 +31,6 @@ main{
 	text-align: center;
 }
 
-.sticky-things{
-	position: sticky;
-	bottom:0;
-}
-
 .art-tag:hover{
 	color: white !important;
 	text-decoration: none;
@@ -62,14 +57,14 @@ h4{
 }
 
 .text-black:hover{
-	color: #000 !important;	
+	color: #000 !important;
 }
 
 .bg-primary{
 	background: #f72210 !important;
 }
 
-.bg-special-nav {       
+.bg-special-nav {
 	background-color: #f72210;
 }
 
@@ -83,10 +78,10 @@ h3{
 	font-size: 17px;
 }
 
-@media only screen and (min-width:1200px) { 
+@media only screen and (min-width:1200px) {
 	.bg-special-nav{
 		background:#fff;
-	}      		
+	}
 	.text-black{
 		color: black !important;
 	}
@@ -99,7 +94,7 @@ h3{
 }
 
 
-@media only screen and (max-width:450px) { 
+@media only screen and (max-width:450px) {
 	.sign-btns{
 		min-width: 160px !important;
 	}
@@ -109,7 +104,7 @@ h3{
 	}
 
 	.sign-btns span{
-		font-size: 12px !important;		
+		font-size: 12px !important;
 	}
 
 	.sign-btns a{
@@ -127,10 +122,9 @@ h3{
 
 }
 
-@media only screen and (max-width:350px) { 
+@media only screen and (max-width:350px) {
 	.special-nav{
 		flex-direction: column;
 		justify-content: center;
 	}
 }
-
