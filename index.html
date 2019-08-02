@@ -2,414 +2,460 @@
 <html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no" />
 
-    <title>Newsweek - News, Analytics, Politics, Business, Technology</title>
+  <title>Newsweek - News, Analytics, Politics, Business, Technology</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Kadwa|Roboto+Condensed:400,700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Kadwa|Roboto+Condensed:400,700&display=swap" rel="stylesheet">
 </head>
 
-<body class = "bg-light">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<body class="bg-light">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <header>
-        <nav class="navbar font-weight-bold bg-primary align-items-end py-4 d-none d-xl-flex">
-            <p class="my-0 text-white font-weight-normal">Thu, Aug 01, 2019</p>
+  <header>
+    <nav class="navbar font-weight-bold bg-primary align-items-end py-4 d-none d-xl-flex">
+      <p class="my-0 text-white font-weight-normal">Thu, Aug 01, 2019</p>
 
-            <a class="navbar-brand" href="#">
-                <svg class="d-block" height="70px" version="1.1" fill="white" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" xml:space="preserve" style="-moz-user-select: auto;">
-                    <g style="-moz-user-select: auto;">
-                        <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2 L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11 c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7 l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6   H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13   c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8   c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2   C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7  h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4    c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1  c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6    c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6   C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5 h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9    c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2    c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9  C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6 c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1   c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6    v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3  c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5    h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7" style="-moz-user-select: auto;"></path>
-                    </g></svg>
-                </a>
+      <a class="navbar-brand" href="#">
+        <svg class="d-block" height="70px" version="1.1" fill="white" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" xml:space="preserve"
+          style="-moz-user-select: auto;">
+          <g style="-moz-user-select: auto;">
+            <path class="st0"
+              d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2 L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11 c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7 l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6   H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13   c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8   c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2   C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7  h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4    c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1  c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6    c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6   C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5 h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9    c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2    c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9  C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6 c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1   c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6    v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3  c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5    h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+              style="-moz-user-select: auto;"></path>
+          </g>
+        </svg>
+      </a>
 
-                <div class="d-flex align-items-center">
-                    <a class="nav-link text-white" href="#">SIGN IN</a>
-                    <a class="py-1 nav-link bg-white d-flex align-items-center text-primary" href="#" style="height: 29px">
-                        <span style="font-size: 14px;">SUBSCRIBE</span>
-                        <svg class = "pl-2" height=12px version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 14"  xml:space="preserve"><g id="arrow-right">
-                            <defs style="-moz-user-select: auto;">
-                                <rect id="SVGID_1_" width="8" height="14" style="-moz-user-select: auto;"></rect>
-                            </defs>
-                            <clipPath id="SVGID_2_" style="-moz-user-select: auto;">
-                                <use xlink:href="#SVGID_1_" style="overflow: visible; -moz-user-select: auto;"></use>
-                            </clipPath>
-                            <g id="Shape_1" class="st0" style="-moz-user-select: auto;">
-                                <g style="-moz-user-select: auto;">
-                                    <polygon class="st1" points="8,7 1.1,0 0,1.1 5.9,7 0,12.9 1.1,14 8,7 8,7    " style="-moz-user-select: auto;"></polygon>
-                                </g>
-                            </g>
-                        </g></svg>
-                    </a>
-                </div>
-            </nav>
+      <div class="d-flex align-items-center">
+        <a class="nav-link text-white" href="#">SIGN IN</a>
+        <a class="py-1 nav-link bg-white d-flex align-items-center text-primary" href="#" style="height: 29px">
+          <span style="font-size: 14px;">SUBSCRIBE</span>
+          <svg class="pl-2" height=12px version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 14" xml:space="preserve">
+            <g id="arrow-right">
+              <defs style="-moz-user-select: auto;">
+                <rect id="SVGID_1_" width="8" height="14" style="-moz-user-select: auto;"></rect>
+              </defs>
+              <clipPath id="SVGID_2_" style="-moz-user-select: auto;">
+                <use xlink:href="#SVGID_1_" style="overflow: visible; -moz-user-select: auto;"></use>
+              </clipPath>
+              <g id="Shape_1" class="st0" style="-moz-user-select: auto;">
+                <g style="-moz-user-select: auto;">
+                  <polygon class="st1" points="8,7 1.1,0 0,1.1 5.9,7 0,12.9 1.1,14 8,7 8,7    " style="-moz-user-select: auto;"></polygon>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </nav>
 
-            <nav class="navbar navbar-expand-xl font-weight-bolder bg-special-nav border-special-nav special-nav" style="overflow: auto; min-height: 0px;">
-                <a class="navbar-brand d-xl-none" href="#">
-                    <svg class="d-block" height="20px" version="1.1" fill="white" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" xml:space="preserve" style="-moz-user-select: auto;">
-                        <g style="-moz-user-select: auto;">
-                            <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2 L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11 c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7 l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6   H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13   c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8   c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2   C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7  h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4    c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1  c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6    c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6   C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5 h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9    c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2    c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9  C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6 c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1   c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6    v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3  c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5    h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7" style="-moz-user-select: auto;"></path>
-                        </g>
-                    </svg>
-                </a>
+    <nav class="navbar navbar-expand-xl font-weight-bolder bg-special-nav border-special-nav special-nav" style="overflow: auto; min-height: 0px;">
+      <a class="navbar-brand d-xl-none" href="#">
+        <svg class="d-block" height="20px" version="1.1" fill="white" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" xml:space="preserve"
+          style="-moz-user-select: auto;">
+          <g style="-moz-user-select: auto;">
+            <path class="st0"
+              d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2 L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11 c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7 l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6   H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13   c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8   c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2   C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7  h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4    c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1  c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6    c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6   C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5 h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9    c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2    c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9  C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6 c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1   c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6    v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3  c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5    h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+              style="-moz-user-select: auto;"></path>
+          </g>
+        </svg>
+      </a>
 
-                <div class="d-flex align-items-center d-xl-none sign-btns" style="min-width: 265px;">
-                    <a class="nav-link text-white align-items-center justify-content-center text-center" href="#">SIGN IN</a>
-                    <a class="py-1 mr-3 nav-link bg-white d-flex align-items-center" href="#" style="height: 29px">
-                        <span class="text-primary" style="font-size: 14px;">SUBSCRIBE</span>
-                        <svg class = "pl-2" height=12px version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 14"  xml:space="preserve"><g id="arrow-right">
-                            <defs style="-moz-user-select: auto;">
-                                <rect id="SVGID_1_" width="8" height="14" style="-moz-user-select: auto;"></rect>
-                            </defs>
-                            <clipPath id="SVGID_2_" style="-moz-user-select: auto;">
-                                <use xlink:href="#SVGID_1_" style="overflow: visible; -moz-user-select: auto;"></use>
-                            </clipPath>
-                            <g id="Shape_1" class="st0" style="-moz-user-select: auto;">
-                                <g style="-moz-user-select: auto;">
-                                    <polygon class="st1" points="8,7 1.1,0 0,1.1 5.9,7 0,12.9 1.1,14 8,7 8,7    " style="-moz-user-select: auto;"></polygon>
-                                </g>
-                            </g>
-                        </g></svg>
-                    </a>
-                    <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fa fa-bars" style="color: darkgray; font-size: 28px;"></i>
-                    </button>
-                </div>
+      <div class="d-flex align-items-center d-xl-none sign-btns" style="min-width: 265px;">
+        <a class="nav-link text-white align-items-center justify-content-center text-center" href="#">SIGN IN</a>
+        <a class="py-1 mr-3 nav-link bg-white d-flex align-items-center" href="#" style="height: 29px">
+          <span class="text-primary" style="font-size: 14px;">SUBSCRIBE</span>
+          <svg class="pl-2" height=12px version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 14" xml:space="preserve">
+            <g id="arrow-right">
+              <defs style="-moz-user-select: auto;">
+                <rect id="SVGID_1_" width="8" height="14" style="-moz-user-select: auto;"></rect>
+              </defs>
+              <clipPath id="SVGID_2_" style="-moz-user-select: auto;">
+                <use xlink:href="#SVGID_1_" style="overflow: visible; -moz-user-select: auto;"></use>
+              </clipPath>
+              <g id="Shape_1" class="st0" style="-moz-user-select: auto;">
+                <g style="-moz-user-select: auto;">
+                  <polygon class="st1" points="8,7 1.1,0 0,1.1 5.9,7 0,12.9 1.1,14 8,7 8,7    " style="-moz-user-select: auto;"></polygon>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars" style="color: darkgray; font-size: 28px;"></i>
+        </button>
+      </div>
 
-                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active w-10 px-2 text-center">
-                            <a class="nav-link text-black" href="#">U.S.<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active w-10 px-2 text-center">
-                            <a class="nav-link text-black" href="#">World<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active w-10 px-2 text-center">
-                            <a class="nav-link text-black" href="#">Business<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active w-10 px-2 text-center">
-                            <a class="nav-link text-black" href="#">Tech & Science<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active w-10 px-2 text-center">
-                            <a class="nav-link text-black" href="#">Culture<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active w-10 px-2 text-center">
-                            <a class="nav-link text-black" href="#">Sports<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active w-10 px-2 text-center">
-                            <a class="nav-link text-black" href="#">Health<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active w-10 px-2 text-center">
-                            <a class="nav-link text-black" href="#">Opinion<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active w-10 px-2 text-center">
-                            <a class="nav-link text-black" href="#">Vantage<span class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
-                    <form class="form-inline justify-content-center form-search">
-                      <input id="searchInput" class="form-control w-50" type="search" placeholder="Search" aria-label="Search">
-                      <label for="searchInput" class="text-black pl-2">
-                          <svg height=20px enable-background="new 0 0 21 21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="a"><path d="m0 0h21v21h-21z"/></clipPath><g clip-path="url(#a)"><path d="m8.5 1c4.1 0 7.5 3.4 7.5 7.5 0 1.8-.6 3.5-1.8 4.8l-.4.5-.5.4c-1.3 1.2-3 1.8-4.8 1.8-4.1 0-7.5-3.4-7.5-7.5s3.4-7.5 7.5-7.5m0-1c-4.7 0-8.5 3.8-8.5 8.5s3.8 8.5 8.5 8.5c2.1 0 4-.7 5.5-2l5.5 5.5 1.1-1.1-5.6-5.4c1.2-1.5 2-3.4 2-5.5 0-4.7-3.8-8.5-8.5-8.5z"/></g></svg>
-                      </label>
-                  </form>
-              </div>
-          </nav>
-      </header>
-
-
-      <main class="container-fluid bg-white">
-        <section class="row py-2">
-            <section class="col-3 sticky-things">
-                <div class="row px-3">
-                    <h4 class="text-info font-weight-bold my-0">FEATURED STORIES</h4>
-                </div>
-                <article class="row justify-content-center px-3">
-                    <div class="row position-relative my-2 w-100">
-                        <a href="#">
-                            <img width=100% src="https://d.newsweek.com/en/full/1511786/newsweek-momentum-awards-2019.png?w=397&h=265&q=90&f=b5bee11f8b144487ff291880f4d318be">
-                            <h3 class="position-absolute my-0 p-2 text-primary font-weight-bold">ANALYSIS</h3>
-                        </a>
-                    </div>
-                    <div>
-                        <a class="news-anchor-header" href="#"><h2 class="font-weight-bolder text-secondary">The Newsweek Momentum Awards</h2></a>
-                        <p>The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
-                    </div>
-                </article>
-                <article class="row justify-content-center px-3">
-                    <div class="row position-relative my-3 w-100">
-                        <a href="#">
-                            <img width=100% src="https://d.newsweek.com/en/full/1516478/capital-one.jpg?w=397&h=265&q=90&f=84055e844f6418c4a37a17028c74ada9">
-                            <h3 class="position-absolute my-0 p-2 text-primary font-weight-bold ">NEWS</h3>
-                        </a>
-                    </div>
-                    <div>
-                        <a class="news-anchor-header" href="#"><h2 class="font-weight-bolder text-secondary">Capital One Breach Suspect Threatened to 'Shoot Up' Media Company, Feds Say</h2></a>
-                        <p>"She had a habit of openly struggling with her state of mind in public channels," said an online friend of accused hacker Paige A. Thompson.</p>
-                    </div>
-                </article>
-                <article class="row justify-content-center px-3">
-                    <div class="row position-relative my-3 w-100">
-                        <a href="#">
-                            <img width=100% src="https://d.newsweek.com/en/full/1516412/vladimir-putin-donald-trump-wildfires-siberia.jpg?w=397&h=265&q=90&f=ec57a107065566149ebad68c0c69c57d">
-                            <h3 class="position-absolute my-0 p-2 text-primary font-weight-bold">NEWS</h3>
-                        </a>
-                    </div>
-                    <div>
-                        <a class="news-anchor-header" href="#"><h2 class="font-weight-bolder text-secondary">Putin Praises Trump, Says Offer of Wildfire Help Could Help Reset Relations</h2></a>
-                        <p>The Kremlin said Putin thanked Trump "for such attentive attitude, for offering help and support" over the massive wildfires.</p>
-                    </div>
-                </article>
-                <article class="row justify-content-center px-3">
-                    <div class="row position-relative my-3 w-100">
-                        <a href="#">
-                            <img width=100% src="https://d.newsweek.com/en/full/1511669/spot-im-logo.png?w=397&h=265&q=90&f=fe63931482a6ab2a1825bd5559fc3c72">
-                            <h3 class="position-absolute my-0 text-primary p-2 font-weight-bold">EDITOR'S NOTE</h3>
-                        </a>
-                    </div>
-                    <div>
-                        <a class="news-anchor-header" href="#"><h2 class="font-weight-bolder text-secondary">To Our Readers:</h2></a>
-                        <p>We always want to hear from you, and to make that easier, we've implemented a new commenting forum. Take a look at the bottom of Newsweek articles. Spot.IM is a tool that helps readers respond to our stories and communicate with one another—and with us. Ask us a question, embed a GIF, point out a mistake. Be civil and respectful, please. And most important: Be in touch.</p>
-                    </div>
-                </article>
-            </section>
-
-            <section class="col-6">
-                <div class="row px-3">
-                    <h4 class="text-info font-weight-bold my-0">TOP STORY</h4>
-                </div>
-                <article class="row justify-content-center px-3">
-                    <div class="row position-relative my-2 w-100 justify-content-center ">
-                        <a class="w-100" href="#">
-                            <img width=100% src="https://d.newsweek.com/en/full/1516779/mexico-us-border.jpg?w=591&h=364&q=90&f=b3258a4b364bab064988adb815b67235">
-                            <h3 class="position-absolute my-0 text-primary p-2 font-weight-bold">NEWS</h3>
-                        </a>
-                    </div>
-                    <div>
-                        <a class="news-anchor-header" href="#"><h2 class="font-weight-bolder text-secondary">Mexican Police Kill Migrant in Front of His Daughter</h2></a>
-                        <p>The Central American father was shot in the northern Mexico city of Saltillo. International human rights organizations have demanded a detailed investigation.</p>
-                    </div>
-                </article>
-                    <article class="row bg-light px-3 my-2">
-                        <div class="row px-3">
-                            <h4 class="text-info font-weight-bold my-2">CULTURE & TRAVEL</h4>
-                        </div>
-                        <div class="row">
-                            <div class="col-6 w-100 my-2">
-                                <img width=100% src="https://d.newsweek.com/en/full/1515696/genever.jpg?w=397&h=265&f=49859a5df7b0ceb2bcd2f8b4b7b9aa9a">
-                                <a class="news-anchor-header" href="#"><h5 class="text-secondary my-3">7 Best Cocktail Bars in Los Angeles</h5></a>
-                                <p class="text-dark">Los Angeles has quickly become one of the best cocktail cities in America and has the bars to prove it.</p>
-                                <a class="art-tag bg-secondary" href="#">Cocktails</a>
-                            </div>
-                            <div class="col-6 w-100 my-2">
-                                <img width=100% src="https://d.newsweek.com/en/full/1515696/genever.jpg?w=397&h=265&f=49859a5df7b0ceb2bcd2f8b4b7b9aa9a">
-                                <a class="news-anchor-header" href="#"><h5 class="text-secondary my-3">7 Ancient Egypt: Underwater Archaeologists Find Temple Ruins in Sunken City</h5></a>
-                                <p class="text-dark">Researchers also found treasures like jewelry and coins in the remains of ancient shipwrecks</p>
-                                <a class="art-tag bg-secondary" href="#">Ancient Egypt</a>
-                            </div>
-                            <div class="col-6 w-100 my-2">
-                                <img width=100% src="https://d.newsweek.com/en/full/1516026/whats-coming-netflix-august-2019.png?w=397&h=265&f=03e95899178ba8251bd3152be8094e8e">
-                                <a class="news-anchor-header" href="#"><h5 class="text-secondary my-3">7 What's Coming to Netflix in August 2019?</h5></a>
-                                <p class="text-dark">Every film of the Rocky series will debut on Netflix next month along with several new original titles</p>
-                                <a class="art-tag bg-secondary" href="#">Netflix</a>
-                            </div>
-                            <div class="col-6 w-100 my-2">
-                                <img width=100% src="https://d.newsweek.com/en/full/1513906/cul-books-01-748319631.jpg?w=397&h=265&f=a76b1f70348747e4d543c615e152e7f7">
-                                <a class="news-anchor-header" href="#"><h5 class="text-secondary my-3">7 30 Last Chance Beach Reads for Summer 2019</h5></a>
-                                <p class="text-dark">Dive into a new world of literature with Newsweek's top 30 picks to read during these final lazy, hazy, crazy days of summer</p>
-                                <a class="art-tag bg-secondary" href="#">Books</a>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="row px-3">
-                         <div class="row px-3">
-                            <h4 class="text-info font-weight-bold my-2">MORE STORIES</h4>
-                        </div>
-                        <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
-                            <a href="#">
-                                <img class="float-left" href="#" src="images/small-news-2.png" width=135px height=90px>
-                            </a>
-                            <div class="col">
-                                <a class="news-anchor-header" href="#">
-                                    <h6 class="font-weight-bolder text-secondary">Iran Says U.S. 'Isolating Itself' as China, Russia, Allies Go Their Own Way</h6>
-                                </a>
-                                <p class="my-0">Iranian Foreign Minister Mohamed Javad Zarif, recently sanctioned by the U.S., warned that global "comerce & power are shifting" away from the West.</p>
-                            </div>
-                        </div>
-                        <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
-                            <a href="#">
-                                <img class="float-left" href="#" src="images/small-news.png" width=135px height=90px>
-                            </a>
-                            <div class="col">
-                                <a class="news-anchor-header" href="#">
-                                    <h6 class="font-weight-bolder text-secondary">Amy McGrath Accuses Mitch McConnell of Using 'Doctored Audio' in New Ads</h6>
-                                </a>
-                                <p class="my-0">"He cut out half the sentece. You should release the whole recording, senator," said the Kentucky Democrat seeking to unseat the senator.</p>
-                            </div>
-                        </div>
-                                                <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
-                            <a href="#">
-                                <img class="float-left" href="#" src="images/small-news-2.png" width=135px height=90px>
-                            </a>
-                            <div class="col">
-                                <a class="news-anchor-header" href="#">
-                                    <h6 class="font-weight-bolder text-secondary">Iran Says U.S. 'Isolating Itself' as China, Russia, Allies Go Their Own Way</h6>
-                                </a>
-                                <p class="my-0">Iranian Foreign Minister Mohamed Javad Zarif, recently sanctioned by the U.S., warned that global "comerce & power are shifting" away from the West.</p>
-                            </div>
-                        </div>
-                        <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
-                            <a href="#">
-                                <img class="float-left" href="#" src="images/small-news.png" width=135px height=90px>
-                            </a>
-                            <div class="col">
-                                <a class="news-anchor-header" href="#">
-                                    <h6 class="font-weight-bolder text-secondary">Amy McGrath Accuses Mitch McConnell of Using 'Doctored Audio' in New Ads</h6>
-                                </a>
-                                <p class="my-0">"He cut out half the sentece. You should release the whole recording, senator," said the Kentucky Democrat seeking to unseat the senator.</p>
-                            </div>
-                        </div>
-                                                <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
-                            <a href="#">
-                                <img class="float-left" href="#" src="images/small-news-2.png" width=135px height=90px>
-                            </a>
-                            <div class="col">
-                                <a class="news-anchor-header" href="#">
-                                    <h6 class="font-weight-bolder text-secondary">Iran Says U.S. 'Isolating Itself' as China, Russia, Allies Go Their Own Way</h6>
-                                </a>
-                                <p class="my-0">Iranian Foreign Minister Mohamed Javad Zarif, recently sanctioned by the U.S., warned that global "comerce & power are shifting" away from the West.</p>
-                            </div>
-                        </div>
-                        <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
-                            <a href="#">
-                                <img class="float-left" href="#" src="images/small-news.png" width=135px height=90px>
-                            </a>
-                            <div class="col">
-                                <a class="news-anchor-header" href="#">
-                                    <h6 class="font-weight-bolder text-secondary">Amy McGrath Accuses Mitch McConnell of Using 'Doctored Audio' in New Ads</h6>
-                                </a>
-                                <p class="my-0">"He cut out half the sentece. You should release the whole recording, senator," said the Kentucky Democrat seeking to unseat the senator.</p>
-                            </div>
-                        </div>
-                                                <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
-                            <a href="#">
-                                <img class="float-left" href="#" src="images/small-news-2.png" width=135px height=90px>
-                            </a>
-                            <div class="col">
-                                <a class="news-anchor-header" href="#">
-                                    <h6 class="font-weight-bolder text-secondary">Iran Says U.S. 'Isolating Itself' as China, Russia, Allies Go Their Own Way</h6>
-                                </a>
-                                <p class="my-0">Iranian Foreign Minister Mohamed Javad Zarif, recently sanctioned by the U.S., warned that global "comerce & power are shifting" away from the West.</p>
-                            </div>
-                        </div>
-                        <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
-                            <a href="#">
-                                <img class="float-left" href="#" src="images/small-news.png" width=135px height=90px>
-                            </a>
-                            <div class="col">
-                                <a class="news-anchor-header" href="#">
-                                    <h6 class="font-weight-bolder text-secondary">Amy McGrath Accuses Mitch McConnell of Using 'Doctored Audio' in New Ads</h6>
-                                </a>
-                                <p class="my-0">"He cut out half the sentece. You should release the whole recording, senator," said the Kentucky Democrat seeking to unseat the senator.</p>
-                            </div>
-                        </div>
-                                                <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
-                            <a href="#">
-                                <img class="float-left" href="#" src="images/small-news-2.png" width=135px height=90px>
-                            </a>
-                            <div class="col">
-                                <a class="news-anchor-header" href="#">
-                                    <h6 class="font-weight-bolder text-secondary">Iran Says U.S. 'Isolating Itself' as China, Russia, Allies Go Their Own Way</h6>
-                                </a>
-                                <p class="my-0">Iranian Foreign Minister Mohamed Javad Zarif, recently sanctioned by the U.S., warned that global "comerce & power are shifting" away from the West.</p>
-                            </div>
-                        </div>
-                        <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
-                            <a href="#">
-                                <img class="float-left" href="#" src="images/small-news.png" width=135px height=90px>
-                            </a>
-                            <div class="col">
-                                <a class="news-anchor-header" href="#">
-                                    <h6 class="font-weight-bolder text-secondary">Amy McGrath Accuses Mitch McConnell of Using 'Doctored Audio' in New Ads</h6>
-                                </a>
-                                <p class="my-0">"He cut out half the sentece. You should release the whole recording, senator," said the Kentucky Democrat seeking to unseat the senator.</p>
-                            </div>
-                        </div>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active w-10 px-2 text-center">
+            <a class="nav-link text-black" href="#">U.S.<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active w-10 px-2 text-center">
+            <a class="nav-link text-black" href="#">World<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active w-10 px-2 text-center">
+            <a class="nav-link text-black" href="#">Business<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active w-10 px-2 text-center">
+            <a class="nav-link text-black" href="#">Tech & Science<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active w-10 px-2 text-center">
+            <a class="nav-link text-black" href="#">Culture<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active w-10 px-2 text-center">
+            <a class="nav-link text-black" href="#">Sports<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active w-10 px-2 text-center">
+            <a class="nav-link text-black" href="#">Health<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active w-10 px-2 text-center">
+            <a class="nav-link text-black" href="#">Opinion<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active w-10 px-2 text-center">
+            <a class="nav-link text-black" href="#">Vantage<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+        <form class="form-inline justify-content-center form-search">
+          <input id="searchInput" class="form-control w-50" type="search" placeholder="Search" aria-label="Search">
+          <label for="searchInput" class="text-black pl-2">
+            <svg height=20px enable-background="new 0 0 21 21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <clipPath id="a">
+                <path d="m0 0h21v21h-21z" />
+              </clipPath>
+              <g clip-path="url(#a)">
+                <path
+                  d="m8.5 1c4.1 0 7.5 3.4 7.5 7.5 0 1.8-.6 3.5-1.8 4.8l-.4.5-.5.4c-1.3 1.2-3 1.8-4.8 1.8-4.1 0-7.5-3.4-7.5-7.5s3.4-7.5 7.5-7.5m0-1c-4.7 0-8.5 3.8-8.5 8.5s3.8 8.5 8.5 8.5c2.1 0 4-.7 5.5-2l5.5 5.5 1.1-1.1-5.6-5.4c1.2-1.5 2-3.4 2-5.5 0-4.7-3.8-8.5-8.5-8.5z" />
+              </g>
+            </svg>
+          </label>
+        </form>
+      </div>
+    </nav>
+  </header>
 
 
-                    </article>
-            </section>
+  <main class="container-fluid bg-white">
+    <section class="row py-2">
+      <section class="col-3 sticky-things">
+        <div class="row px-3">
+          <h4 class="text-info font-weight-bold my-0">FEATURED STORIES</h4>
+        </div>
+        <article class="row justify-content-center px-3">
+          <div class="row position-relative my-2 w-100">
+            <a href="#">
+              <img width=100% src="https://d.newsweek.com/en/full/1511786/newsweek-momentum-awards-2019.png?w=397&h=265&q=90&f=b5bee11f8b144487ff291880f4d318be">
+              <h3 class="position-absolute my-0 p-2 text-primary font-weight-bold">ANALYSIS</h3>
+            </a>
+          </div>
+          <div>
+            <a class="news-anchor-header" href="#">
+              <h2 class="font-weight-bolder text-secondary">The Newsweek Momentum Awards</h2>
+            </a>
+            <p>The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
+          </div>
+        </article>
+        <article class="row justify-content-center px-3">
+          <div class="row position-relative my-3 w-100">
+            <a href="#">
+              <img width=100% src="https://d.newsweek.com/en/full/1516478/capital-one.jpg?w=397&h=265&q=90&f=84055e844f6418c4a37a17028c74ada9">
+              <h3 class="position-absolute my-0 p-2 text-primary font-weight-bold ">NEWS</h3>
+            </a>
+          </div>
+          <div>
+            <a class="news-anchor-header" href="#">
+              <h2 class="font-weight-bolder text-secondary">Capital One Breach Suspect Threatened to 'Shoot Up' Media Company, Feds Say</h2>
+            </a>
+            <p>"She had a habit of openly struggling with her state of mind in public channels," said an online friend of accused hacker Paige A. Thompson.</p>
+          </div>
+        </article>
+        <article class="row justify-content-center px-3">
+          <div class="row position-relative my-3 w-100">
+            <a href="#">
+              <img width=100% src="https://d.newsweek.com/en/full/1516412/vladimir-putin-donald-trump-wildfires-siberia.jpg?w=397&h=265&q=90&f=ec57a107065566149ebad68c0c69c57d">
+              <h3 class="position-absolute my-0 p-2 text-primary font-weight-bold">NEWS</h3>
+            </a>
+          </div>
+          <div>
+            <a class="news-anchor-header" href="#">
+              <h2 class="font-weight-bolder text-secondary">Putin Praises Trump, Says Offer of Wildfire Help Could Help Reset Relations</h2>
+            </a>
+            <p>The Kremlin said Putin thanked Trump "for such attentive attitude, for offering help and support" over the massive wildfires.</p>
+          </div>
+        </article>
+        <article class="row justify-content-center px-3">
+          <div class="row position-relative my-3 w-100">
+            <a href="#">
+              <img width=100% src="https://d.newsweek.com/en/full/1511669/spot-im-logo.png?w=397&h=265&q=90&f=fe63931482a6ab2a1825bd5559fc3c72">
+              <h3 class="position-absolute my-0 text-primary p-2 font-weight-bold">EDITOR'S NOTE</h3>
+            </a>
+          </div>
+          <div>
+            <a class="news-anchor-header" href="#">
+              <h2 class="font-weight-bolder text-secondary">To Our Readers:</h2>
+            </a>
+            <p>We always want to hear from you, and to make that easier, we've implemented a new commenting forum. Take a look at the bottom of Newsweek articles. Spot.IM is a tool that helps readers respond to our stories and communicate with one
+              another—and with us. Ask us a question, embed a GIF, point out a mistake. Be civil and respectful, please. And most important: Be in touch.</p>
+          </div>
+        </article>
+      </section>
 
-            <section class="col-3 sticky-things">
-                <div class="row px-3">
-                    <h4 class="text-info font-weight-bold my-0">FEATURED STORIES</h4>
-                </div>
-                <article class="row justify-content-center px-3">
-                    <div class="row position-relative my-2 w-100">
-                        <a href="#">
-                            <img width=100% src="https://d.newsweek.com/en/full/1511786/newsweek-momentum-awards-2019.png?w=397&h=265&q=90&f=b5bee11f8b144487ff291880f4d318be">
-                            <h3 class="position-absolute my-0 p-2 text-primary font-weight-bold">ANALYSIS</h3>
-                        </a>
-                    </div>
-                    <div>
-                        <a class="news-anchor-header" href="#"><h2 class="font-weight-bolder text-secondary">The Newsweek Momentum Awards</h2></a>
-                        <p>The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
-                    </div>
-                </article>
-                <article class="row justify-content-center px-3">
-                    <div class="row position-relative my-3 w-100">
-                        <a href="#">
-                            <img width=100% src="https://d.newsweek.com/en/full/1516478/capital-one.jpg?w=397&h=265&q=90&f=84055e844f6418c4a37a17028c74ada9">
-                            <h3 class="position-absolute my-0 p-2 text-primary font-weight-bold ">NEWS</h3>
-                        </a>
-                    </div>
-                    <div>
-                        <a class="news-anchor-header" href="#"><h2 class="font-weight-bolder text-secondary">Capital One Breach Suspect Threatened to 'Shoot Up' Media Company, Feds Say</h2></a>
-                        <p>"She had a habit of openly struggling with her state of mind in public channels," said an online friend of accused hacker Paige A. Thompson.</p>
-                    </div>
-                </article>
-                <article class="row justify-content-center px-3">
-                    <div class="row position-relative my-3 w-100">
-                        <a href="#">
-                            <img width=100% src="https://d.newsweek.com/en/full/1516412/vladimir-putin-donald-trump-wildfires-siberia.jpg?w=397&h=265&q=90&f=ec57a107065566149ebad68c0c69c57d">
-                            <h3 class="position-absolute my-0 p-2 text-primary font-weight-bold">NEWS</h3>
-                        </a>
-                    </div>
-                    <div>
-                        <a class="news-anchor-header" href="#"><h2 class="font-weight-bolder text-secondary">Putin Praises Trump, Says Offer of Wildfire Help Could Help Reset Relations</h2></a>
-                        <p>The Kremlin said Putin thanked Trump "for such attentive attitude, for offering help and support" over the massive wildfires.</p>
-                    </div>
-                </article>
-                <article class="row justify-content-center px-3">
-                    <div class="row position-relative my-3 w-100">
-                        <a href="#">
-                            <img width=100% src="https://d.newsweek.com/en/full/1511669/spot-im-logo.png?w=397&h=265&q=90&f=fe63931482a6ab2a1825bd5559fc3c72">
-                            <h3 class="position-absolute my-0 text-primary p-2 font-weight-bold">EDITOR'S NOTE</h3>
-                        </a>
-                    </div>
-                    <div>
-                        <a class="news-anchor-header" href="#"><h2 class="font-weight-bolder text-secondary">To Our Readers:</h2></a>
-                        <p>We always want to hear from you, and to make that easier, we've implemented a new commenting forum. Take a look at the bottom of Newsweek articles. Spot.IM is a tool that helps readers respond to our stories and communicate with one another—and with us. Ask us a question, embed a GIF, point out a mistake. Be civil and respectful, please. And most important: Be in touch.</p>
-                    </div>
-                </article>
-            </section>
-            <section class="col-3">
-                <p>Hola</p>
-            </section>
-        </section>
-        </section>
-        </main>
+      <section class="col-6">
+        <div class="row px-3">
+          <h4 class="text-info font-weight-bold my-0">TOP STORY</h4>
+        </div>
+        <article class="row justify-content-center px-3">
+          <div class="row position-relative my-2 w-100 justify-content-center ">
+            <a class="w-100" href="#">
+              <img width=100% src="https://d.newsweek.com/en/full/1516779/mexico-us-border.jpg?w=591&h=364&q=90&f=b3258a4b364bab064988adb815b67235">
+              <h3 class="position-absolute my-0 text-primary p-2 font-weight-bold">NEWS</h3>
+            </a>
+          </div>
+          <div>
+            <a class="news-anchor-header" href="#">
+              <h2 class="font-weight-bolder text-secondary">Mexican Police Kill Migrant in Front of His Daughter</h2>
+            </a>
+            <p>The Central American father was shot in the northern Mexico city of Saltillo. International human rights organizations have demanded a detailed investigation.</p>
+          </div>
+        </article>
+        <article class="row bg-light px-3 my-2">
+          <div class="row px-3">
+            <h4 class="text-info font-weight-bold my-2">CULTURE & TRAVEL</h4>
+          </div>
+          <div class="row">
+            <div class="col-6 w-100 my-2">
+              <img width=100% src="https://d.newsweek.com/en/full/1515696/genever.jpg?w=397&h=265&f=49859a5df7b0ceb2bcd2f8b4b7b9aa9a">
+              <a class="news-anchor-header" href="#">
+                <h5 class="text-secondary my-3">7 Best Cocktail Bars in Los Angeles</h5>
+              </a>
+              <p class="text-dark">Los Angeles has quickly become one of the best cocktail cities in America and has the bars to prove it.</p>
+              <a class="art-tag bg-secondary" href="#">Cocktails</a>
+            </div>
+            <div class="col-6 w-100 my-2">
+              <img width=100% src="https://d.newsweek.com/en/full/1515696/genever.jpg?w=397&h=265&f=49859a5df7b0ceb2bcd2f8b4b7b9aa9a">
+              <a class="news-anchor-header" href="#">
+                <h5 class="text-secondary my-3">7 Ancient Egypt: Underwater Archaeologists Find Temple Ruins in Sunken City</h5>
+              </a>
+              <p class="text-dark">Researchers also found treasures like jewelry and coins in the remains of ancient shipwrecks</p>
+              <a class="art-tag bg-secondary" href="#">Ancient Egypt</a>
+            </div>
+            <div class="col-6 w-100 my-2">
+              <img width=100% src="https://d.newsweek.com/en/full/1516026/whats-coming-netflix-august-2019.png?w=397&h=265&f=03e95899178ba8251bd3152be8094e8e">
+              <a class="news-anchor-header" href="#">
+                <h5 class="text-secondary my-3">7 What's Coming to Netflix in August 2019?</h5>
+              </a>
+              <p class="text-dark">Every film of the Rocky series will debut on Netflix next month along with several new original titles</p>
+              <a class="art-tag bg-secondary" href="#">Netflix</a>
+            </div>
+            <div class="col-6 w-100 my-2">
+              <img width=100% src="https://d.newsweek.com/en/full/1513906/cul-books-01-748319631.jpg?w=397&h=265&f=a76b1f70348747e4d543c615e152e7f7">
+              <a class="news-anchor-header" href="#">
+                <h5 class="text-secondary my-3">7 30 Last Chance Beach Reads for Summer 2019</h5>
+              </a>
+              <p class="text-dark">Dive into a new world of literature with Newsweek's top 30 picks to read during these final lazy, hazy, crazy days of summer</p>
+              <a class="art-tag bg-secondary" href="#">Books</a>
+            </div>
+          </div>
+        </article>
+        <article class="row px-3">
+          <div class="row px-3">
+            <h4 class="text-info font-weight-bold my-2">MORE STORIES</h4>
+          </div>
+          <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
+            <a href="#">
+              <img class="float-left" href="#" src="images/small-news-2.png" width=135px height=90px>
+            </a>
+            <div class="col">
+              <a class="news-anchor-header" href="#">
+                <h6 class="font-weight-bolder text-secondary">Iran Says U.S. 'Isolating Itself' as China, Russia, Allies Go Their Own Way</h6>
+              </a>
+              <p class="my-0">Iranian Foreign Minister Mohamed Javad Zarif, recently sanctioned by the U.S., warned that global "comerce & power are shifting" away from the West.</p>
+            </div>
+          </div>
+          <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
+            <a href="#">
+              <img class="float-left" href="#" src="images/small-news.png" width=135px height=90px>
+            </a>
+            <div class="col">
+              <a class="news-anchor-header" href="#">
+                <h6 class="font-weight-bolder text-secondary">Amy McGrath Accuses Mitch McConnell of Using 'Doctored Audio' in New Ads</h6>
+              </a>
+              <p class="my-0">"He cut out half the sentece. You should release the whole recording, senator," said the Kentucky Democrat seeking to unseat the senator.</p>
+            </div>
+          </div>
+          <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
+            <a href="#">
+              <img class="float-left" href="#" src="images/small-news-2.png" width=135px height=90px>
+            </a>
+            <div class="col">
+              <a class="news-anchor-header" href="#">
+                <h6 class="font-weight-bolder text-secondary">Iran Says U.S. 'Isolating Itself' as China, Russia, Allies Go Their Own Way</h6>
+              </a>
+              <p class="my-0">Iranian Foreign Minister Mohamed Javad Zarif, recently sanctioned by the U.S., warned that global "comerce & power are shifting" away from the West.</p>
+            </div>
+          </div>
+          <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
+            <a href="#">
+              <img class="float-left" href="#" src="images/small-news.png" width=135px height=90px>
+            </a>
+            <div class="col">
+              <a class="news-anchor-header" href="#">
+                <h6 class="font-weight-bolder text-secondary">Amy McGrath Accuses Mitch McConnell of Using 'Doctored Audio' in New Ads</h6>
+              </a>
+              <p class="my-0">"He cut out half the sentece. You should release the whole recording, senator," said the Kentucky Democrat seeking to unseat the senator.</p>
+            </div>
+          </div>
+          <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
+            <a href="#">
+              <img class="float-left" href="#" src="images/small-news-2.png" width=135px height=90px>
+            </a>
+            <div class="col">
+              <a class="news-anchor-header" href="#">
+                <h6 class="font-weight-bolder text-secondary">Iran Says U.S. 'Isolating Itself' as China, Russia, Allies Go Their Own Way</h6>
+              </a>
+              <p class="my-0">Iranian Foreign Minister Mohamed Javad Zarif, recently sanctioned by the U.S., warned that global "comerce & power are shifting" away from the West.</p>
+            </div>
+          </div>
+          <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
+            <a href="#">
+              <img class="float-left" href="#" src="images/small-news.png" width=135px height=90px>
+            </a>
+            <div class="col">
+              <a class="news-anchor-header" href="#">
+                <h6 class="font-weight-bolder text-secondary">Amy McGrath Accuses Mitch McConnell of Using 'Doctored Audio' in New Ads</h6>
+              </a>
+              <p class="my-0">"He cut out half the sentece. You should release the whole recording, senator," said the Kentucky Democrat seeking to unseat the senator.</p>
+            </div>
+          </div>
+          <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
+            <a href="#">
+              <img class="float-left" href="#" src="images/small-news-2.png" width=135px height=90px>
+            </a>
+            <div class="col">
+              <a class="news-anchor-header" href="#">
+                <h6 class="font-weight-bolder text-secondary">Iran Says U.S. 'Isolating Itself' as China, Russia, Allies Go Their Own Way</h6>
+              </a>
+              <p class="my-0">Iranian Foreign Minister Mohamed Javad Zarif, recently sanctioned by the U.S., warned that global "comerce & power are shifting" away from the West.</p>
+            </div>
+          </div>
+          <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
+            <a href="#">
+              <img class="float-left" href="#" src="images/small-news.png" width=135px height=90px>
+            </a>
+            <div class="col">
+              <a class="news-anchor-header" href="#">
+                <h6 class="font-weight-bolder text-secondary">Amy McGrath Accuses Mitch McConnell of Using 'Doctored Audio' in New Ads</h6>
+              </a>
+              <p class="my-0">"He cut out half the sentece. You should release the whole recording, senator," said the Kentucky Democrat seeking to unseat the senator.</p>
+            </div>
+          </div>
+          <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
+            <a href="#">
+              <img class="float-left" href="#" src="images/small-news-2.png" width=135px height=90px>
+            </a>
+            <div class="col">
+              <a class="news-anchor-header" href="#">
+                <h6 class="font-weight-bolder text-secondary">Iran Says U.S. 'Isolating Itself' as China, Russia, Allies Go Their Own Way</h6>
+              </a>
+              <p class="my-0">Iranian Foreign Minister Mohamed Javad Zarif, recently sanctioned by the U.S., warned that global "comerce & power are shifting" away from the West.</p>
+            </div>
+          </div>
+          <div class="row border border-secondary border-right-0 border-left-0 border-bottom-0 px-3 py-3">
+            <a href="#">
+              <img class="float-left" href="#" src="images/small-news.png" width=135px height=90px>
+            </a>
+            <div class="col">
+              <a class="news-anchor-header" href="#">
+                <h6 class="font-weight-bolder text-secondary">Amy McGrath Accuses Mitch McConnell of Using 'Doctored Audio' in New Ads</h6>
+              </a>
+              <p class="my-0">"He cut out half the sentece. You should release the whole recording, senator," said the Kentucky Democrat seeking to unseat the senator.</p>
+            </div>
+          </div>
 
-        <footer>
-        </footer>
 
-    </body>
+        </article>
+      </section>
 
-    </html>
+      <section class="col-3 sticky-things">
+        <div class="row px-3">
+          <h4 class="text-info font-weight-bold my-0">FEATURED STORIES</h4>
+        </div>
+        <article class="row justify-content-center px-3">
+          <div class="row position-relative my-2 w-100">
+            <a href="#">
+              <img width=100% src="https://d.newsweek.com/en/full/1511786/newsweek-momentum-awards-2019.png?w=397&h=265&q=90&f=b5bee11f8b144487ff291880f4d318be">
+              <h3 class="position-absolute my-0 p-2 text-primary font-weight-bold">ANALYSIS</h3>
+            </a>
+          </div>
+          <div>
+            <a class="news-anchor-header" href="#">
+              <h2 class="font-weight-bolder text-secondary">The Newsweek Momentum Awards</h2>
+            </a>
+            <p>The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
+          </div>
+        </article>
+        <article class="row justify-content-center px-3">
+          <div class="row position-relative my-3 w-100">
+            <a href="#">
+              <img width=100% src="https://d.newsweek.com/en/full/1516478/capital-one.jpg?w=397&h=265&q=90&f=84055e844f6418c4a37a17028c74ada9">
+              <h3 class="position-absolute my-0 p-2 text-primary font-weight-bold ">NEWS</h3>
+            </a>
+          </div>
+          <div>
+            <a class="news-anchor-header" href="#">
+              <h2 class="font-weight-bolder text-secondary">Capital One Breach Suspect Threatened to 'Shoot Up' Media Company, Feds Say</h2>
+            </a>
+            <p>"She had a habit of openly struggling with her state of mind in public channels," said an online friend of accused hacker Paige A. Thompson.</p>
+          </div>
+        </article>
+        <article class="row justify-content-center px-3">
+          <div class="row position-relative my-3 w-100">
+            <a href="#">
+              <img width=100% src="https://d.newsweek.com/en/full/1516412/vladimir-putin-donald-trump-wildfires-siberia.jpg?w=397&h=265&q=90&f=ec57a107065566149ebad68c0c69c57d">
+              <h3 class="position-absolute my-0 p-2 text-primary font-weight-bold">NEWS</h3>
+            </a>
+          </div>
+          <div>
+            <a class="news-anchor-header" href="#">
+              <h2 class="font-weight-bolder text-secondary">Putin Praises Trump, Says Offer of Wildfire Help Could Help Reset Relations</h2>
+            </a>
+            <p>The Kremlin said Putin thanked Trump "for such attentive attitude, for offering help and support" over the massive wildfires.</p>
+          </div>
+        </article>
+        <article class="row justify-content-center px-3">
+          <div class="row position-relative my-3 w-100">
+            <a href="#">
+              <img width=100% src="https://d.newsweek.com/en/full/1511669/spot-im-logo.png?w=397&h=265&q=90&f=fe63931482a6ab2a1825bd5559fc3c72">
+              <h3 class="position-absolute my-0 text-primary p-2 font-weight-bold">EDITOR'S NOTE</h3>
+            </a>
+          </div>
+          <div>
+            <a class="news-anchor-header" href="#">
+              <h2 class="font-weight-bolder text-secondary">To Our Readers:</h2>
+            </a>
+            <p>We always want to hear from you, and to make that easier, we've implemented a new commenting forum. Take a look at the bottom of Newsweek articles. Spot.IM is a tool that helps readers respond to our stories and communicate with one
+              another—and with us. Ask us a question, embed a GIF, point out a mistake. Be civil and respectful, please. And most important: Be in touch.</p>
+          </div>
+        </article>
+      </section>
+      <section class="col-3">
+        <p>Hola</p>
+      </section>
+    </section>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+
+</body>
+
+</html>
