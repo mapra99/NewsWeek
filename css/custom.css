@@ -20,6 +20,11 @@ main{
 	color: black !important;
 }
 
+.news-back-img{
+	background-size: cover;
+	width: 100%;
+	height: 350px;
+}
 .news-anchor-header:hover{
 	text-decoration: 	underline;
 	text-decoration-color: 	#f72210;
