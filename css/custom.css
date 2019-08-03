@@ -23,7 +23,7 @@ main{
 .news-back-img{
 	background-size: cover;
 	width: 100%;
-	height: 330px;
+	height: 21vw;
 }
 .news-anchor-header:hover{
 	text-decoration: 	underline;
