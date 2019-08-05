@@ -29,6 +29,12 @@ main{
 	min-width: 290px;
 	min-height: 190px;
 }
+
+.news-img{
+	height: 15vw;
+	max-height: 195px;
+}
+
 .news-anchor-header:hover{
 	text-decoration: 	underline;
 	text-decoration-color: 	#f72210;
