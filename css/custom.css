@@ -114,6 +114,28 @@ h3{
 	line-height: 0 !important;
 }
 
+.mag-img{
+	width: 170px;
+	height: 230px;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.mag-img::after{
+	display: block;
+	width: 170px;
+	height: 230px;
+	background-image: url('https://d.newsweek.com/en/full/1516486/cover-august-09-2019.jpg');
+	content: "";
+	position: absolute;
+	top: 10px;
+	right: -80px;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 @media only screen and (min-width:992px) {
 	.bg-special-nav{
 		background:#fff;
