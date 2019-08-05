@@ -117,6 +117,7 @@ h3{
 .mag-img{
 	width: 170px;
 	height: 230px;
+	background-image: url('https://d.newsweek.com/en/full/1515144/august-2-2019-cover.jpg');
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -131,6 +132,15 @@ h3{
 	position: absolute;
 	top: 10px;
 	right: -80px;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.newsletter-img{
+	width: 182px;
+	height: 326px;
+	background-image: url('https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif');
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
