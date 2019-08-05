@@ -26,8 +26,7 @@ main{
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 21vw;
-	min-width: 290px;
-	min-height: 190px;
+	max-height: 195px;
 }
 
 .news-img{
@@ -113,6 +112,19 @@ h3{
 }
 
 
+@media only screen and (max-width:991px) {
+	.news-img{
+		height: 30vw;
+		max-height: none;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	.news-back-img, .news-img{
+		height: 65vw;
+	}
+}
+
 @media only screen and (max-width:450px) {
 	.sign-btns{
 		min-width: 160px !important;
@@ -146,9 +158,4 @@ h3{
 		flex-direction: column;
 		justify-content: center;
 	}
-}
-
-@media only screen and (max-width:767px) {
-	.news-back-img{
-		height: 65vw;
 }
