@@ -26,7 +26,7 @@ main{
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 21vw;
-	max-height: 195px;
+	max-height: 290px;
 }
 
 .news-img{
@@ -106,6 +106,12 @@ h3{
 	position: absolute;
 	bottom: -7px;
 	right: -7px;
+}
+
+.news-counter{
+	background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+	padding: 10px !important;
+	line-height: 15px !important;
 }
 
 @media only screen and (min-width:992px) {
