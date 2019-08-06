@@ -192,12 +192,19 @@ footer i {
   .special-ul-2 {
     width: 25%;
   }
+  .position-lg-static{
+    position: static;
+  }
 }
 
 @media only screen and (max-width:991px) {
   .news-img {
     height: 30vw;
     max-height: none;
+  }
+
+  body{
+    padding-top: 56px;
   }
 }
 
@@ -240,11 +247,19 @@ footer i {
   .sign-btns i {
     font-size: 25px !important;
   }
+
+  body{
+    padding-top: 50px;
+  }
 }
 
 @media only screen and (max-width:353px) {
   .special-nav {
     flex-direction: column;
     justify-content: center;
+  }
+
+  body{
+    padding-top: 80px;
   }
 }
