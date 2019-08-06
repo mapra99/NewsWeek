@@ -20,7 +20,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-  <header>
+
+
     <nav class="navbar font-weight-bold bg-primary align-items-end py-4 d-none d-lg-flex">
       <p class="my-0 text-white font-weight-normal">Thu, Aug 01, 2019</p>
 
@@ -57,8 +58,8 @@
         </a>
       </div>
     </nav>
-    <nav class="navbar navbar-expand-lg font-weight-bolder bg-special-nav border-special-nav special-nav fixed-top position-lg-static border border-left-0 border-right-0 border-top-0 border-bottom-1" style="overflow: auto;">
-      <a class="navbar-brand d-lg-none" href="#">
+    <nav id="navbarToStick" class="navbar navbar-expand-lg font-weight-bolder bg-special-nav special-nav fixed-top position-lg-static border border-left-0 border-right-0 border-top-0 border-bottom-1" style="overflow: auto;">
+      <a id="navbarToStickAnchor" class="navbar-brand d-lg-none" href="#">
         <svg class="d-block" height="20px" version="1.1" fill="white" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" xml:space="preserve"
           style="-moz-user-select: auto;">
           <g style="-moz-user-select: auto;">
@@ -69,7 +70,7 @@
         </svg>
       </a>
 
-      <div class="d-flex align-items-center d-lg-none sign-btns" style="min-width: 265px;">
+      <div id="navbarToStickDropDown" class="d-flex align-items-center d-lg-none sign-btns" style="min-width: 265px;">
         <a class="nav-link text-white align-items-center justify-content-center text-center" href="#">SIGN IN</a>
         <a class="py-1 mr-3 nav-link bg-white d-flex align-items-center" href="#" style="height: 29px">
           <span class="text-primary" style="font-size: 14px;">SUBSCRIBE</span>
@@ -124,7 +125,7 @@
             <a class="nav-link text-black" href="#">Vantage<span class="sr-only">(current)</span></a>
           </li>
         </ul>
-        <form class="form-inline justify-content-center form-search">
+        <form id="navbarToStickSearch" class="form-inline justify-content-center form-search form-search-2">
           <input id="searchInput" class="form-control w-75" type="search" placeholder="Search" aria-label="Search">
           <label for="searchInput" class="text-black pl-2">
             <svg height=20px enable-background="new 0 0 21 21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -140,8 +141,44 @@
         </form>
       </div>
     </nav>
-  </header>
+  
 
+  <script>
+  window.onscroll = function(){myFunction()};
+  var navbar = document.getElementById("navbarToStick");
+  var anchor = document.getElementById("navbarToStickAnchor");
+  var btn = document.getElementById("navbarToStickDropDown");
+  var search = document.getElementById("navbarToStickSearch");
+  var sticky = navbar.offsetTop;
+  console.log(sticky);
+  function myFunction(){
+    if(window.pageYOffset >= sticky){
+      navbar.classList.add("sticky-nav");
+      navbar.classList.remove("navbar-expand-lg");
+      navbar.classList.remove("position-lg-static");
+      navbar.classList.remove("bg-special-nav");
+      navbar.classList.add("bg-special-nav-2");
+      navbar.classList.add("border-bottom-0");
+      navbar.classList.remove("border-bottom-1");
+      anchor.classList.remove("d-lg-none");
+      btn.classList.remove("d-lg-none");
+      search.classList.add("form-search-2");
+      search.classList.remove("form-search");
+    } else {
+      navbar.classList.remove("sticky-nav");
+      navbar.classList.add("navbar-expand-lg");
+      navbar.classList.add("position-lg-static");
+      navbar.classList.add("bg-special-nav");
+      navbar.classList.remove("bg-special-nav-2");
+      navbar.classList.remove("border-bottom-0");
+      navbar.classList.add("border-bottom-1");
+      anchor.classList.add("d-lg-none");
+      btn.classList.add("d-lg-none");
+      search.classList.remove("form-search-2");
+      search.classList.add("form-search");
+    }
+  }
+  </script>
   <main class="container-fluid bg-white">
     <section class="row py-2">
       <section class="col-lg-6 col-md-7 col-12 order-md-2">

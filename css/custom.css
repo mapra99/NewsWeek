@@ -75,11 +75,11 @@ h4 {
   background: #f72210 !important;
 }
 
-.bg-special-nav {
+.bg-special-nav, .bg-special-nav-2 {
   background-color: #f72210;
 }
 
-.form-search {
+.form-search, .form-search-2 {
   width: 100%;
 }
 
@@ -166,6 +166,12 @@ footer i {
 
 .special-ul, .special-ul-2 {
   width: 100%;
+}
+
+.sticky-nav{
+  position: sticky !important;
+  top: 0;
+  width:100%;
 }
 
 @media only screen and (min-width:992px) {
